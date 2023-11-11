@@ -1,0 +1,110 @@
+.payment {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	&__box {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		.payment__fade {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			opacity: 0.5;
+			background-color: $black;
+			z-index: 10000;
+		}
+		.payment__item {
+			width: 70%;
+			height: 60%;
+			background-color: $white;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 100000;
+			border-radius: 30px;
+			.payment__button-close {
+				position: absolute;
+				right: -5%;
+				top: -5%;
+				cursor: pointer;
+			}
+			.payment__content {
+				width: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 40px 60px;
+				gap: 50px;
+				&_header {
+					width: 40%;
+					height: 100%;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					gap: 60px;
+				}
+				&_title {
+					width: 100%;
+					font-family: $open;
+					font-size: 30px;
+				}
+				&_img {
+					width: 70%;
+					img {
+						width: 100%;
+						height: 100%;
+						display: block;
+					}
+				}
+				&_form {
+					width: 60%;
+					display: flex;
+					flex-direction: column;
+					align-items: flex-start;
+					gap: 40px;
+					.payment__form_item {
+						width: 100%;
+						background-color: black;
+						opacity: 0.6;
+						display: flex;
+						align-items: center;
+						justify-content: flex-start;
+						gap: 15px;
+						padding: 8px 15px;
+						border-radius: 8px;
+						.payment__item_title {
+							color: $white;
+							font-size: 20px;
+							font-weight: 500;
+							font-family: $open;
+						}
+						.payment__item_text {
+							color: $white;
+							font-size: 18px;
+							font-weight: 400;
+							font-family: $open;
+						}
+					}
+					.payment__item_button-success {
+						background-color: $orange;
+						color: $white;
+						padding: 8px 15px;
+						border-radius: 8px;
+						font-size: 20px;
+						font-weight: 500;
+						font-family: $open;
+						cursor: pointer;
+						width: 100%;
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+}

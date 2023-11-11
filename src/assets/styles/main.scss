@@ -1,0 +1,85 @@
+//IMPORT SERVICES
+@import './services/variables.scss';
+@import './services/mixins.scss';
+
+//IMPORT PAGES
+
+@import './pages/navigation/navigation.scss';
+@import './pages/header/header.scss';
+@import './pages/categories/categories.scss';
+@import './pages/cards/cards.scss';
+@import './pages/oftenorder/oftenorder.scss';
+@import './pages/product/product.scss';
+
+@import './pages/delivery-and-payment/delivery-and-payment.scss';
+
+@import './pages/cart/cart.scss';
+@import './pages/payment/payment.scss'; //NULLING
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	&::after {
+		font-size: 0px;
+		display: none;
+	}
+}
+
+//STATIC STYLES
+.container {
+	width: 85%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	&.cart-open {
+		overflow: hidden;
+	}
+	&.modal-open {
+		overflow: hidden;
+	}
+	&.payment-open {
+		overflow: hidden;
+	}
+}
+
+.skeleton {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&__box {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		gap: 40px;
+	}
+	&_item {
+		width: 23%;
+		height: 480px;
+	}
+}
+.nav-skeleton {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	&__box {
+		display: flex;
+		align-items: center;
+	}
+	&__item {
+		width: 33%;
+	}
+}
+
+//BLOCKS STYLES

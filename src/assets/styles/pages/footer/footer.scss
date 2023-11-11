@@ -1,0 +1,159 @@
+.footer {
+	@include standartBlocksSizes(30px 0px);
+	background-color: rgb(24, 24, 24);
+	&__box {
+		width: 100%;
+		@include standartFlex(column, flex-start, space-between);
+		gap: 50px;
+		.footer__top {
+			width: 100%;
+			@include standartFlex(row, flex-start, space-between);
+			.footer__left {
+				width: 70%;
+				@include standartFlex(row, flex-start, flex-start);
+				gap: 30px;
+				&_columns {
+					@include standartFlex(column, flex-start, flex-start);
+					gap: 15px;
+					width: 20%;
+					.footer__columns_title {
+						color: $white;
+						font-size: 16px;
+						font-weight: 500;
+						font-family: $open;
+					}
+					.footer__columns_text {
+						color: $white;
+						opacity: 0.7;
+						font-size: 16px;
+						font-weight: 400;
+						font-family: $open;
+					}
+				}
+			}
+			.footer__right {
+				width: 25%;
+				@include standartFlex(column, flex-end, flex-start);
+				gap: 20px;
+				&_store {
+					width: 100%;
+					@include standartFlex(row, flex-start, flex-end);
+					.footer__store_item {
+						width: 45%;
+						height: 40px;
+						img {
+							display: block;
+							width: 100%;
+							height: 100%;
+						}
+					}
+				}
+				&_phone {
+					@include standartFlex(column, flex-end, flex-start);
+					gap: 5px;
+					.footer__phone_title {
+						font-size: 26px;
+						font-weight: 500;
+						font-family: $open;
+						color: $white;
+						text-decoration: none;
+					}
+					.footer__phone_text {
+						color: $white;
+						font-size: 15px;
+						font-weight: 400;
+						font-family: $open;
+						opacity: 0.7;
+					}
+				}
+				&_email {
+					.footer__email_title {
+						text-decoration: none;
+						color: $white;
+						opacity: 0.7;
+						font-family: $open;
+						font-size: 15px;
+					}
+				}
+			}
+		}
+		.footer__bottom {
+			width: 100%;
+			@include standartFlex(row, flex-end, space-between);
+			&_left {
+				width: 55%;
+				@include standartFlex(row, flex-start, flex-start);
+				gap: 60px;
+				.footer__left_columns {
+					@include standartFlex(column, flex-start, flex-start);
+					gap: 15px;
+					.footer__columns_title {
+						font-size: 26px;
+						font-weight: 400;
+						font-family: $open;
+						color: $white;
+					}
+					.footer__columns_text {
+						opacity: 0.7;
+						font-family: $open;
+						color: $white;
+					}
+				}
+			}
+			&_right {
+				width: 40%;
+				@include standartFlex(column, flex-end, flex-start);
+				gap: 15px;
+				.footer__right_title {
+					font-size: 16px;
+					font-weight: 400;
+					font-family: $open;
+					color: $white;
+					opacity: 0.7;
+				}
+				.footer__right_payment {
+					width: 100%;
+					height: 50px;
+					img {
+						width: 100%;
+						height: 100%;
+						display: block;
+					}
+				}
+			}
+		}
+		.footer__hr {
+			width: 100%;
+			height: 0.5px;
+			background-color: $gray;
+			opacity: 0.4;
+		}
+		.footer__description {
+			width: 100%;
+			@include standartFlex(row, center, space-between);
+			&_title {
+				font-size: 16px;
+				font-weight: 600;
+				font-family: $open;
+				color: $white;
+				opacity: 0.7;
+			}
+			&_items {
+				@include standartFlex(row, center, flex-end);
+				gap: 30px;
+				.footer__items_item {
+					width: 32px;
+					height: 32px;
+					background-color: rgba(255, 255, 255, 0.7);
+					border-radius: 5px;
+					cursor: pointer;
+					img {
+						width: 100%;
+						height: 100%;
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}

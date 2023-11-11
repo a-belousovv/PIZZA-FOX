@@ -1,0 +1,499 @@
+{
+	"pizzas": [
+		{
+			"title": "Кантри-пицца",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/3276f7457aa646caa256ad77fa984634_584x584.webp",
+			"id": "country-pizza",
+			"text": "Бекон, ветчина, жареный лук, маринованные огурчики, красный лук, чеснок, моцарелла, соус ранч, соус барбекю",
+			"price": [
+				{ "size": 0, "type": 0, "price": 18.99 },
+				{ "size": 1, "type": 0, "price": 21.99 },
+				{ "size": 2, "type": 0, "price": 24.99 },
+				{ "size": 0, "type": 1, "price": 14.99 },
+				{ "size": 1, "type": 1, "price": 18.99 },
+				{ "size": 2, "type": 1, "price": 21.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Трюфельная с ветчиной",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/aa2554d960a8417e8103041763f74520_584x584.webp",
+			"id": "truffle-pizza",
+			"text": "Ветчина, трюфельный соус, моцарелла, красный лук, чеснок, шампиньоны, фирменный соус альфредо",
+			"price": [
+				{ "size": 0, "type": 0, "price": 19.99 },
+				{ "size": 1, "type": 0, "price": 26.99 },
+				{ "size": 2, "type": 0, "price": 29.99 },
+				{ "size": 0, "type": 1, "price": 15.99 },
+				{ "size": 1, "type": 1, "price": 23.99 },
+				{ "size": 2, "type": 1, "price": 26.99 }
+			],
+
+			"status": 1
+		},
+		{
+			"title": "Пицца Жюльен",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/774244815038438fa52dcd6dcfcdaf35_584x584.webp",
+			"id": "pizza-julien",
+			"text": "Цыпленок, шампиньоны, сливочный соус с грибами, красный лук, чеснок, моцарелла, смесь сыров чеддер и пармезан, фирменный соус альфредо",
+			"price": [
+				{ "size": 0, "type": 0, "price": 19.99 },
+				{ "size": 1, "type": 0, "price": 26.99 },
+				{ "size": 2, "type": 0, "price": 29.99 },
+				{ "size": 0, "type": 1, "price": 15.99 },
+				{ "size": 1, "type": 1, "price": 23.99 },
+				{ "size": 2, "type": 1, "price": 26.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Миксик",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/9647d574e05b423ba8ae9abca46150b1_584x584.webp",
+			"id": "pizza-mix",
+			"text": "Цыпленок, ветчина, моцарелла, томаты, кубики брынзы, фирменный соус альфредо",
+			"price": [
+				{ "size": 0, "type": 0, "price": 18.99 },
+				{ "size": 1, "type": 0, "price": 21.99 },
+				{ "size": 2, "type": 0, "price": 24.99 },
+				{ "size": 0, "type": 1, "price": 14.99 },
+				{ "size": 1, "type": 1, "price": 18.99 },
+				{ "size": 2, "type": 1, "price": 21.99 }
+			],
+			"status": 2
+		},
+		{
+			"title": "Додо Микс",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/19d5e8d134984d4f800a2ed42d4ef3d2_584x584.webp",
+			"id": "pizza-dodo-mix",
+			"text": "Бекон, цыпленок, ветчина, сыры чеддер и пармезан, соус песто, кубики брынзы, томаты, красный лук, моцарелла, блю чиз, соус альфредо, чеснок, итальянские травы",
+			"price": [
+				{ "size": 0, "type": 0, "price": 19.99 },
+				{ "size": 1, "type": 0, "price": 23.99 },
+				{ "size": 2, "type": 0, "price": 27.99 },
+				{ "size": 0, "type": 1, "price": 16.99 },
+				{ "size": 1, "type": 1, "price": 19.99 },
+				{ "size": 2, "type": 1, "price": 24.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Пепперони",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/70834e6311c0483493bf2279dbc1718d_584x584.webp",
+			"id": "pizza-peperoni",
+			"text": "Томатный соус, пикантная пепперони, моцарелла",
+			"price": [
+				{ "size": 0, "type": 0, "price": 16.99 },
+				{ "size": 1, "type": 0, "price": 19.99 },
+				{ "size": 2, "type": 0, "price": 22.99 },
+				{ "size": 0, "type": 1, "price": 12.99 },
+				{ "size": 1, "type": 1, "price": 16.99 },
+				{ "size": 2, "type": 1, "price": 25.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Карбонара",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/0a496a3d8b87415dbc3d3647ff8f3db8_584x584.webp",
+			"id": "pizza-karbonara",
+			"text": "Бекон, сыры чеддер и пармезан, моцарелла, томаты, соус альфредо, красный лук, чеснок, итальянские травы",
+			"price": [
+				{ "size": 0, "type": 0, "price": 16.99 },
+				{ "size": 1, "type": 0, "price": 19.99 },
+				{ "size": 2, "type": 0, "price": 22.99 },
+				{ "size": 0, "type": 1, "price": 12.99 },
+				{ "size": 1, "type": 1, "price": 16.99 },
+				{ "size": 2, "type": 1, "price": 25.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Итальянский цыпленок",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/778cd3360b124344b86d3031bc02386e_584x584.webp",
+			"id": "pizza-italian-chicken",
+			"text": "Цыпленок, итальянские травы, сыр моцарелла, красный лук, томаты свежие, соус альфредо",
+			"price": [
+				{ "size": 0, "type": 0, "price": 17.99 },
+				{ "size": 1, "type": 0, "price": 20.99 },
+				{ "size": 2, "type": 0, "price": 24.99 },
+				{ "size": 0, "type": 1, "price": 14.99 },
+				{ "size": 1, "type": 1, "price": 17.99 },
+				{ "size": 2, "type": 1, "price": 20.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Ветчина и грибы",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/170dc9490a9f47928d616c9937b55735_584x584.webp",
+			"id": "pizza-tomat-souse",
+			"text": "Томатный соус, моцарелла, ветчина, шампиньоны",
+			"price": [
+				{ "size": 0, "type": 0, "price": 17.99 },
+				{ "size": 1, "type": 0, "price": 20.99 },
+				{ "size": 2, "type": 0, "price": 24.99 },
+				{ "size": 0, "type": 1, "price": 13.99 },
+				{ "size": 1, "type": 1, "price": 17.99 },
+				{ "size": 2, "type": 1, "price": 20.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Четыре сезона!",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/f05b3d7ed33647a985d383d68a94bf09_584x584.webp",
+			"id": "pizza-four-season",
+			"text": "Итальянские травы, томатный соус, томаты, пикантная пепперони, кубики брынзы, моцарелла, ветчина, шампиньоны",
+			"price": [
+				{ "size": 0, "type": 0, "price": 20.99 },
+				{ "size": 1, "type": 0, "price": 24.99 },
+				{ "size": 2, "type": 0, "price": 27.99 },
+				{ "size": 0, "type": 1, "price": 18.99 },
+				{ "size": 1, "type": 1, "price": 21.99 },
+				{ "size": 2, "type": 1, "price": 24.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Деревенская!",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/4ce729f1b8db4b60abf8827c7efb28c6_584x584.webp",
+			"id": "pizza-village",
+			"text": "Картофель из печи, маринованные огурчики, цыпленок, соус ранч, томаты, красный лук, чеснок, моцарелла, томатный соус",
+			"price": [
+				{ "size": 0, "type": 0, "price": 20.99 },
+				{ "size": 1, "type": 0, "price": 24.99 },
+				{ "size": 2, "type": 0, "price": 27.99 },
+				{ "size": 0, "type": 1, "price": 18.99 },
+				{ "size": 1, "type": 1, "price": 21.99 },
+				{ "size": 2, "type": 1, "price": 24.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Аррива!",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/d878f20b7ed84877b33662a212a398a0_584x584.webp",
+			"id": "pizza-arriva",
+			"text": "Цыпленок, чоризо, соус бургер, томаты, сладкий перец, лук красный, чеснок, моцарелла, соус ранч",
+			"price": [
+				{ "size": 0, "type": 0, "price": 20.99 },
+				{ "size": 1, "type": 0, "price": 24.99 },
+				{ "size": 2, "type": 0, "price": 27.99 },
+				{ "size": 0, "type": 1, "price": 18.99 },
+				{ "size": 1, "type": 1, "price": 21.99 },
+				{ "size": 2, "type": 1, "price": 24.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Гавайская с альфредо",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/2f01bd53e7374171838e95f001bae829_760x760.webp",
+			"id": "pizza-hawaiian-with-alfredo",
+			"text": "Фирменный соус альфредо, цыпленок, моцарелла, ананасы",
+			"price": [
+				{ "size": 0, "type": 0, "price": 20.99 },
+				{ "size": 1, "type": 0, "price": 24.99 },
+				{ "size": 2, "type": 0, "price": 27.99 },
+				{ "size": 0, "type": 1, "price": 18.99 },
+				{ "size": 1, "type": 1, "price": 21.99 },
+				{ "size": 2, "type": 1, "price": 24.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Домашняя",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/ee610848581545c298a429c05802f56d_292x292.webp",
+			"id": "pizza-home",
+			"text": "Пикантная пепперони, ветчина, маринованные огурчики, томаты, моцарелла, томатный соус",
+			"price": [
+				{ "size": 0, "type": 0, "price": 18.99 },
+				{ "size": 1, "type": 0, "price": 24.99 },
+				{ "size": 2, "type": 0, "price": 27.99 },
+				{ "size": 0, "type": 1, "price": 14.99 },
+				{ "size": 1, "type": 1, "price": 18.99 },
+				{ "size": 2, "type": 1, "price": 24.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Бургер-пицца",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/b5267f2ab19346bcbef26693aed7a2ce_292x292.webp",
+			"id": "pizza-burger",
+			"text": "Томатный соус, моцарелла, ветчина, красный лук, томаты, маринованные огурчики, соус бургер, чеснок",
+			"price": [
+				{ "size": 0, "type": 0, "price": 20.99 },
+				{ "size": 1, "type": 0, "price": 24.99 },
+				{ "size": 2, "type": 0, "price": 27.99 },
+				{ "size": 0, "type": 1, "price": 18.99 },
+				{ "size": 1, "type": 1, "price": 21.99 },
+				{ "size": 2, "type": 1, "price": 24.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Цыпленок барбекю",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/f04f6e1cd2004bfa83389a3563076053_292x292.webp",
+			"id": "pizza-chicken-b-b-q",
+			"text": "Соус барбекю, томатный соус, цыпленок, красный лук, моцарелла, бекон",
+			"price": [
+				{ "size": 0, "type": 0, "price": 20.99 },
+				{ "size": 1, "type": 0, "price": 24.99 },
+				{ "size": 2, "type": 0, "price": 27.99 },
+				{ "size": 0, "type": 1, "price": 18.99 },
+				{ "size": 1, "type": 1, "price": 21.99 },
+				{ "size": 2, "type": 1, "price": 24.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Сырный цыплёнок",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/2d8ceb3abd6646c5a7012916a720e9ed_292x292.webp",
+			"id": "pizza-chicken-cheese",
+			"text": "Цыпленок, моцарелла, сыры чеддер и пармезан, сырный соус, томаты, соус альфредо, чеснок",
+			"price": [
+				{ "size": 0, "type": 0, "price": 23.99 },
+				{ "size": 1, "type": 0, "price": 26.99 },
+				{ "size": 2, "type": 0, "price": 29.99 },
+				{ "size": 0, "type": 1, "price": 20.99 },
+				{ "size": 1, "type": 1, "price": 23.99 },
+				{ "size": 2, "type": 1, "price": 26.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Итальянская",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/143590256f2c4010b8028219e2fd93dc_292x292.webp",
+			"id": "pizza-italian",
+			"text": "Итальянские травы, томатный соус, пикантная пепперони, маслины, моцарелла, шампиньоны",
+			"price": [
+				{ "size": 0, "type": 0, "price": 20.99 },
+				{ "size": 1, "type": 0, "price": 24.99 },
+				{ "size": 2, "type": 0, "price": 27.99 },
+				{ "size": 0, "type": 1, "price": 18.99 },
+				{ "size": 1, "type": 1, "price": 21.99 },
+				{ "size": 2, "type": 1, "price": 24.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Четыре сыра",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/91e62f95cea14ceebc06fe046e03e759_292x292.webp",
+			"id": "pizza-four-cheese",
+			"text": "Соус альфредо, сыры пармезан и чеддер, сыр блю чиз, моцарелла",
+			"price": [
+				{ "size": 0, "type": 0, "price": 23.99 },
+				{ "size": 1, "type": 0, "price": 27.99 },
+				{ "size": 2, "type": 0, "price": 29.99 },
+				{ "size": 0, "type": 1, "price": 20.99 },
+				{ "size": 1, "type": 1, "price": 24.99 },
+				{ "size": 2, "type": 1, "price": 27.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Маграрита",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/a10ad669c5054be2b019613e5cfd2477_292x292.webp",
+			"id": "pizza-margarita",
+			"text": "Итальянские травы, томатный соус, томаты, моцарелла",
+			"price": [
+				{ "size": 0, "type": 0, "price": 14.99 },
+				{ "size": 1, "type": 0, "price": 17.99 },
+				{ "size": 2, "type": 0, "price": 20.99 },
+				{ "size": 0, "type": 1, "price": 11.99 },
+				{ "size": 1, "type": 1, "price": 14.99 },
+				{ "size": 2, "type": 1, "price": 17.99 }
+			],
+			"status": 1
+		}
+	],
+	"categories": [
+		{
+			"title": "Пицца",
+			"path": "#pizzas"
+		},
+		{
+			"title": "Комбо",
+			"path": "#combos"
+		},
+		{
+			"title": "Закуски",
+			"path": "#snacks"
+		}
+	],
+	"cards": [
+		{
+			"img": "https://cs.inappstory.ru/story/o4g/et7/nif/8kgbp3tjwenh9rtghqc6vlo/custom_cover/logo-350x440.jpg?k=pwEAAAAAAAAE&v=1692173801",
+			"title": "",
+			"price": ""
+		},
+		{
+			"img": "https://cs.inappstory.ru/story/rc8/ye0/teq/y5q9jpjjv1osns9gzpukajp/custom_cover/logo-350x440.jpg?k=pwEAAAAAAAAE&v=1695627561",
+			"title": "",
+			"price": ""
+		},
+		{
+			"img": "https://cs.inappstory.ru/story/tne/4du/cdh/lsrj4emhsu0bdloo3gprnfq/custom_cover/logo-350x440.jpg?k=pwEAAAAAAAAE&v=1695889793",
+			"title": "",
+			"price": ""
+		},
+		{
+			"img": "https://cs.inappstory.ru/story/wx8/rk9/wvw/j0pwycynmhkt4vhyrgifrnc/custom_cover/logo-350x440.jpg?k=pwEAAAAAAAAE&v=1695302713",
+			"title": "",
+			"price": ""
+		},
+		{
+			"img": "https://cs.inappstory.ru/story/hkq/sie/qqh/canepp0micaawukm1ekiiri/custom_cover/logo-350x440.jpg?k=pwEAAAAAAAAE&v=1695303063",
+			"title": "",
+			"price": ""
+		},
+		{
+			"img": "https://cs.inappstory.ru/story/e4u/mwl/hvf/4xg5qwhkb5cphoyf8bmzug7/custom_cover/logo-350x440.jpg?k=pwEAAAAAAAAE&v=1696227470",
+			"title": "",
+			"price": ""
+		},
+		{
+			"img": "https://cs.inappstory.ru/story/6bn/xup/pdj/4xn1cztj9ojmbeerfco5rqp/custom_cover/logo-350x440.jpg?k=pwEAAAAAAAAE&v=1691764590",
+			"title": "",
+			"price": ""
+		},
+		{
+			"img": "https://cs.inappstory.ru/story/ax4/4bx/fz1/t6lfseukol2yxhnzn0i6fsd/custom_cover/logo-350x440.jpg?k=pwEAAAAAAAAE&v=1695889804",
+			"title": "",
+			"price": ""
+		},
+		{
+			"img": "https://cs.inappstory.ru/story/oh6/x6s/rcz/kgxcjvtpknr2u4t4pgqrlcw/custom_cover/logo-350x440.jpg?k=pwEAAAAAAAAE&v=1696227562",
+			"title": "",
+			"price": ""
+		},
+		{
+			"img": "https://cs.inappstory.ru/story/zfw/rdw/lwt/jnycf5ey3rgtslhyd5rqfur/custom_cover/logo-350x440.jpg?k=pwEAAAAAAAAE&v=1691763904",
+			"title": "",
+			"price": ""
+		}
+	],
+	"footer": [
+		{
+			"title": "Додо Пицца",
+			"items": [
+				{
+					"title": "О нас",
+					"href": "/"
+				},
+				{
+					"title": "Додо-книга",
+					"href": "/"
+				},
+				{
+					"title": "Блог 'Сила ума'",
+					"href": "/"
+				},
+				{
+					"title": "Додо ИС",
+					"href": "/"
+				}
+			]
+		},
+		{
+			"title": "Работа",
+			"items": [
+				{
+					"title": "В пиццерии",
+					"href": "/"
+				}
+			]
+		},
+		{
+			"title": "Партнерам",
+			"items": [
+				{
+					"title": "Франшиза",
+					"href": "/"
+				},
+				{
+					"title": "Инвестиции",
+					"href": "/"
+				},
+				{
+					"title": "Поставщикам",
+					"href": "/"
+				},
+				{
+					"title": "Предложить помещение",
+					"href": "/"
+				}
+			]
+		},
+		{
+			"title": "Это интересно",
+			"items": [
+				{
+					"title": "Почему мы готовим без перчаток",
+					"href": "/"
+				},
+				{
+					"title": "Экскурсии и мастер классы",
+					"href": "/"
+				}
+			]
+		}
+	],
+	"oftenOrder": [
+		{
+			"title": "Пицца Жюльен",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/774244815038438fa52dcd6dcfcdaf35_584x584.webp",
+			"id": "often-pizza-julien",
+			"text": "Цыпленок, шампиньоны, сливочный соус с грибами, красный лук, чеснок, моцарелла, смесь сыров чеддер и пармезан, фирменный соус альфредо",
+			"price": [
+				{ "size": 0, "type": 0, "price": 19.99 },
+				{ "size": 1, "type": 0, "price": 26.99 },
+				{ "size": 2, "type": 0, "price": 29.99 },
+				{ "size": 0, "type": 1, "price": 15.99 },
+				{ "size": 1, "type": 1, "price": 23.99 },
+				{ "size": 2, "type": 1, "price": 26.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Карбонара",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/0a496a3d8b87415dbc3d3647ff8f3db8_584x584.webp",
+			"id": "often-pizza-karbonara",
+			"text": "Бекон, сыры чеддер и пармезан, моцарелла, томаты, соус альфредо, красный лук, чеснок, итальянские травы",
+			"price": [
+				{ "size": 0, "type": 0, "price": 16.99 },
+				{ "size": 1, "type": 0, "price": 19.99 },
+				{ "size": 2, "type": 0, "price": 22.99 },
+				{ "size": 0, "type": 1, "price": 12.99 },
+				{ "size": 1, "type": 1, "price": 16.99 },
+				{ "size": 2, "type": 1, "price": 25.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Додо Микс",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/19d5e8d134984d4f800a2ed42d4ef3d2_584x584.webp",
+			"id": "often-pizza-dodo-mix",
+			"text": "Бекон, цыпленок, ветчина, сыры чеддер и пармезан, соус песто, кубики брынзы, томаты, красный лук, моцарелла, блю чиз, соус альфредо, чеснок, итальянские травы",
+			"price": [
+				{ "size": 0, "type": 0, "price": 18.99 },
+				{ "size": 1, "type": 0, "price": 21.99 },
+				{ "size": 2, "type": 0, "price": 24.99 },
+				{ "size": 0, "type": 1, "price": 14.99 },
+				{ "size": 1, "type": 1, "price": 18.99 },
+				{ "size": 2, "type": 1, "price": 21.99 }
+			],
+			"status": 1
+		},
+		{
+			"title": "Пепперони",
+			"src": "https://dodopizza-a.akamaihd.net/static/Img/Products/70834e6311c0483493bf2279dbc1718d_584x584.webp",
+			"id": "often-pizza-peperoni",
+			"text": "Томатный соус, пикантная пепперони, моцарелла",
+			"price": [
+				{ "size": 0, "type": 0, "price": 16.99 },
+				{ "size": 1, "type": 0, "price": 19.99 },
+				{ "size": 2, "type": 0, "price": 22.99 },
+				{ "size": 0, "type": 1, "price": 12.99 },
+				{ "size": 1, "type": 1, "price": 16.99 },
+				{ "size": 2, "type": 1, "price": 25.99 }
+			],
+			"status": 1
+		}
+	]
+}

@@ -1,0 +1,17 @@
+//STATIC MIXINS
+@mixin standartBlocksSizes($padding) {
+	width: 100%;
+	height: fit-content;
+	padding: $padding;
+}
+
+@mixin standartFlex($direction, $align, $justify) {
+	display: flex;
+	flex-direction: $direction;
+	align-items: $align;
+	justify-content: $justify;
+}
+
+@mixin addColorOrange() {
+	color: $orange;
+}

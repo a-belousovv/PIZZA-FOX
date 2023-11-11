@@ -1,0 +1,40 @@
+.often-order {
+	@include standartBlocksSizes(35px 0px);
+	position: relative;
+	z-index: 100;
+	.often__box {
+		margin: 0 auto;
+		.often__title {
+			font-size: 20px;
+			font-weight: 500;
+			font-family: $open;
+		}
+		.often__item {
+			height: fit-content;
+			border-radius: 15px;
+			background: rgb(255, 255, 255);
+			box-shadow: rgba(6, 5, 50, 0.15) 0px 2px 15px -3px;
+			padding: 8px 12px;
+			margin: 15px 0px;
+			gap: 15px;
+			cursor: pointer;
+			@include standartFlex(row, center, flex-start);
+			&_img {
+				width: 80px;
+				height: 80px;
+			}
+			.often__content {
+				&_title {
+					font-size: 16px;
+					font-weight: 500;
+					font-family: $open;
+				}
+				&_price {
+					font-size: 14px;
+					font-weight: 500;
+					font-family: $open;
+				}
+			}
+		}
+	}
+}
