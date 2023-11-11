@@ -24,7 +24,8 @@ const Cart = () => {
 
 	const totalPrice = Math.ceil(
 		items.reduce(
-			(sum: number, item: CartItem) => sum + item.price * item.count,
+			(sum: number, item: CartItem) =>
+				sum + (item.price ? item.price * item.count : 0),
 			0
 		)
 	)
